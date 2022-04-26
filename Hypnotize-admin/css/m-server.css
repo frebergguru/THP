@@ -1,0 +1,73 @@
+A:link  {
+	text-decoration:none;
+	color:#000000;
+        border-bottom : none;
+	text-decoration: none;
+}
+A:visited {
+	text-decoration:none;
+	color:#000000;
+	border-bottom : none;
+	text-decoration: none;
+}
+A:hover {
+	color: #000000;
+	text-decoration: none;
+	border-bottom : 1px solid #000000;
+	border-top : 1px solid #000000;
+}
+body {
+	background-color: #66CC66;
+}
+.over {
+	background-color: #66CC66;
+	color: #000000;
+	font-size: 50px;
+}
+.menu {
+	background-color: #48D1CC;
+	color: #000000;
+}
+.round {
+	background-color: #3CB371;
+	color: #000000;
+}
+.over2 {
+	background-color: #66CC66;
+	color: #000000;
+}
+.under {
+	background-color: #48D1CC;
+	color: #000000;
+}
+.under2 {
+	background-color: #66CC66;
+	color: #000000;
+}
+input {
+        border: 1px;
+        background-color: #48D1CC;
+        font-size: 12px;
+        color: #000000;
+        font-weight: bold;
+        border-color: #000000;
+        border-style: solid;
+}
+textarea {
+        border: 1px;
+        background-color: #48D1CC;
+        font-size: 12px;
+        color: #000000;
+        font-weight: bold;
+        border-color: #000000;
+        border-style: solid;
+}
+select {
+	border: 1px;
+	background-color: #48D1CC;
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+	border-color: #000000;
+	border-style: solid;
+}

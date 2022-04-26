@@ -1,0 +1,72 @@
+A:link  {
+	text-decoration:none;
+	color:#000000;
+	border-bottom : 1px solid #000000;
+}
+A:visited {
+	text-decoration:none;
+	color:#000000;
+	border-bottom : 1px solid #000000;
+}
+A:hover {
+	color: #000000;
+	text-decoration: none;
+	border-bottom : 1px solid #000000;
+	border-top : 1px solid #000000;
+	background-color: #00CED1;
+}
+body {
+	background-color: #00CED1;
+}
+.over {
+	background-color: #E6E6FA;
+	color: #000000;
+	font-size: 40px;
+}
+.menu {
+	background-color: #F5F5F5;
+	color: #000000;
+}
+.round {
+	background-color: #6495ED;
+	color: #000000;
+}
+.over2 {
+	background-color: #00CED1;
+	color: #000000;
+}
+.under {
+	background-color: #F5F5F5;
+	color: #000000;
+}
+.under2 {
+	background-color: #00CED1;
+	color: #000000;
+}
+input {
+        background-color: #48D1CC;
+        font-size: 12px;
+        color: #000000;
+        font-weight: bold;
+        border-color: #000000;
+        border-style: solid;
+        border: 1px dotted;
+}
+textarea {
+        background-color: #48D1CC;
+        font-size: 12px;
+        color: #000000;
+        font-weight: bold;
+        border-color: #000000;
+        border-style: solid;
+        border: 1px dotted;
+}
+select {
+        background-color: #48D1CC;
+        font-size: 12px;
+        color: #000000;
+        font-weight: bold;
+        border-color: #000000;
+        border-style: solid;
+        border: 1px dotted;
+}

@@ -1,0 +1,42 @@
+A:link  {
+        text-decoration:none;
+        border-bottom : 1px solid #000000;
+}
+A:visited {
+        text-decoration:none;
+        border-bottom : 1px solid #000000;
+}
+A:hover {
+        text-decoration: none;
+        border-bottom : 1px solid #000000;
+        border-top : 1px solid #000000;
+        background-color: #FFF000;
+}
+body {
+	background-color: #FFFFFF;
+}
+.menu {
+        background-color: #CCCCCC;
+        color: #000000;
+}
+.over {
+	background-color: #FFFFFF;
+	color: #000000;
+	font-size: 50px;
+}
+.round {
+	background-color: #DEDEDE;
+	color: #000000;
+}
+.over2 {
+	background-color: #CCCCCC;
+	color: #000000;
+}
+.under {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+.under2 {
+	background-color: #CCCCCC;
+	color: #000000;
+}

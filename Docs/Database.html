@@ -1,0 +1,263 @@
+<html>
+<head>
+<title>The Hypnotize Project - Database overview</title>
+</head>
+<body>
+<div align="center">
+<h2>The Hypnotize Project - Database overview</h2>
+<hr align="center">
+<table border="0">
+<h2>boxes</h2>
+<table border="1">
+<tr>
+<td>Name</td><td>Type</td><td>Allow null</td><td>Default value</td><td>Description</td>
+</tr>
+<tr>
+<td>id</td><td>int(11)</td><td>No</td><td>&nbsp;</td><td>The id of the box</td>
+</tr>
+<tr>
+<td>site</td><td>text</td><td>No</td><td>&nbsp;</td><td>The id of the category you want the text to come into</td>
+</tr>
+<tr>
+<td>catid</td><td>int(11)</td><td>No</td><td>0</td><td>The id of the category you want the text to come into</td>
+<tr>
+<td>position</td><td>char(1)</td><td>No</td><td>&nbsp;</td><td>Where you want the box to come ( l (left) , c (center) or r (rigth) )</td>
+</tr>
+<tr>
+<td>headline</td><td>text</td><td>No</td><td>&nbsp;</td><td>The top text of the box</td>
+</tr>
+<tr>
+<td>uheadline</td><td>text</td><td>No</td><td>&nbsp;</td><td>The text that is under the top text</td>
+</tr>
+<tr>
+<td>sort_id</td><td>int(10)</td><td>Yes</td><td>0</td><td>Where on the page you want it to be (Up and down, uses numbers from 0 - 9999999999 where 0 is on the top and 1 is under 0 etc..)</td>
+</tr>
+<tr>
+<td>link</td><td>text</td><td>No</td><td>&nbsp;</td><td>The link that comes where the text "Press here for more" is</td>
+</tr>
+<tr>
+<td>image</td><td>text</td><td>No</td><td>&nbsp;</td><td>A link to the image you want to use in the box</td>
+</tr>
+<tr>
+<td>module</td><td>text</td><td>No</td><td>&nbsp;</td><td>The name of the module you want to use</td>
+</tr>
+<tr>
+<td>allsites</td><td>int(11)</td><td>Yes</td><td>0</td><td>Place the box on everypage? (0 = False, 1 = True)</td>
+</tr>
+<tr>
+<td>text</td><td>text</td><td>No</td><td>&nbsp;</td><td>The main text that will come in the box</td>
+</tr>
+</table><br>
+<br>
+<h2>dvd</h2>
+<table border="1">
+<tr>
+<td>Name</td><td>Type</td><td>Allow null</td><td>Default value</td><td>Description</td>
+</tr>
+<tr>
+<td>id</td><td>int(11)</td><td>No</td><td>&nbsp;</td><td>The id of the DVD</td>
+</tr>
+<tr>
+<td>producers</td><td>text</td><td>No</td><td>&nbsp;</td><td>Name of the producers seperated by a semicolon (;)</td>
+</tr>
+<tr>
+<td>directors</td><td>text</td><td>No</td><td>&nbsp;</td><td>Name of the directors seperated by a semicolon (;)</td>
+</tr>
+<tr>
+<td>manufacturer</td><td>text</td><td>No</td><td>&nbsp;</td><td>Name of the manufacturer</td>
+</tr>
+<tr>
+<td>rating</td><td>text</td><td>No</td><td>&nbsp;</td><td>Rating of the movie (Example: PG-13)</td>
+</tr>
+<tr>
+<td>dice</td><td>int(11)</td><td>Yes</td><td>0</td><td>Your rating of the DVD</td>
+</tr>
+<tr>
+<td>region</td><td>int(11)</td><td>No</td><td>0</td><td>Region of the DVD (0-6)</td>
+</tr>
+<tr>
+<td>format</td><td>text</td><td>No</td><td>&nbsp;</td><td>The format of the DVD (NTSC/PAL/SECAM etc)</td>
+</tr>
+<tr>
+<td>genre</td><td>text</td><td>No</td><td>&nbsp;</td><td>The genre of the movie (Example: Action, Comedy)</td>
+</tr>
+<tr>
+<td>title</td><td>text</td><td>No</td><td>&nbsp;</td><td>The title of the DVD</td>
+</tr>
+<tr>
+<td>actors</td><td>text</td><td>No</td><td>&nbsp;</td><td>Name of the actors</td>
+</tr>
+<tr>
+<td>year</td><td>text</td><td>No</td><td>&nbsp;</td><td>Production year of the movie</td>
+</tr>
+<tr>
+<td>subtitles</td><td>text</td><td>No</td><td>&nbsp;</td><td>Subtitles that can be shown in the movie</td>
+</tr>
+<tr>
+<td>screen</td><td>text</td><td>No</td><td>&nbsp;</td><td>Screen type (Example: Widescreen 2.35:1 Anamorphic)</td>
+</tr>
+<tr>
+<td>languages</td><td>text</td><td>No</td><td>&nbsp;</td><td>Languages that can be speaked</td>
+</tr>
+<tr>
+<td>length</td><td>int(11)</td><td>No</td><td>0</td><td>Length of the movie</td>
+</tr>
+<tr>
+<td>comment</td><td>text</td><td>No</td><td>&nbsp;</td><td>A custom comment to the movie</td>
+</tr>
+</table><br>
+<br>
+<h2>guestbook</h2>
+<table border="1">
+<tr>
+<td>Name</td><td>Type</td><td>Allow null</td><td>Default value</td><td>Description</td>
+</tr>
+<tr>
+<td>id</td><td>int(11)</td><td>No</td><td>&nbsp;</td><td>The id of the guestbook message</td>
+</tr>
+<tr>
+<td>name</td><td>text</td><td>No</td><td>&nbsp;</td><td>The name of the person witch have writed to the guestbook</td>
+</tr>
+<tr>
+<td>ip</td><td>text</td><td>No</td><td>nbsp;</td><td>The ip of the person who has writed in the guestbook</td>
+</tr>
+<tr>
+<td>date</td><td>date</td><td>No</td><td>0000-00-00</td><td>The date of when the person has signed the guestbook</td>
+</tr>
+<tr>
+<td>time</td><td>time</td><td>No</td><td>00:00:00</td><td>The time of when the person has signed the guestbook</td>
+</tr>
+<tr>
+<td>mail</td><td>text</td><td>No</td><td>&nbsp;</td><td>The e-mail adress of the person who has writen a message in the guestbook</td>
+</tr>
+<tr>
+<td>homepage</td><td>text</td><td>No</td><td>&nbsp;</td><td>URL to the homepage to the person who has writen a message in the guestbook</td>
+</tr>
+<tr>
+<td>message</td><td>text</td><td>No</td><td>&nbsp;</td><td>The message that the person wrote</td>
+</tr>
+</table><br>
+<br>
+<h2>links</h2>
+<table border="1">
+<tr>
+<td>Name</td><td>Type</td><td>Allow null</td><td>Default value</td><td>Description</td>
+</tr>
+<tr>
+<td>id</td><td>int(11)</td><td>No</td><td>&nbsp;</td><td>The id of the link</td>
+</tr>
+<tr>
+<td>name</td><td>text</td><td>No</td><td>&nbsp;</td><td>Name of the site</td>
+</tr>
+<tr>
+<td>ip</td><td>text</td><td>No</td><td>nbsp;</td><td>The ip of the person who has added the link</td>
+</tr>
+<tr>
+<td>date</td><td>date</td><td>No</td><td>0000-00-00</td><td>The date of when the link was added</td>
+</tr>
+<tr>
+<td>time</td><td>time</td><td>No</td><td>00:00:00</td><td>The time of when the link was added</td>
+</tr>
+<tr>
+<td>description</td><td>text</td><td>No</td><td>&nbsp;</td><td>The description of the link<td>
+</tr>
+<tr>
+<td>link</td><td>text</td><td>No</td><td>&nbsp;</td><td>The url</td>
+</tr>
+</table><br>
+<br>
+<h2>menu</h2>
+<table border="1">
+<tr>
+<td>Name</td><td>Type</td><td>Allow null</td><td>Default value</td><td>Description</td>
+</tr>
+<tr>
+<td>id</td><td>int(11)</td><td>No</td><td>&nbsp;</td><td>The id of the menu link</td>
+</tr>
+<tr>
+<td>site_id</td><td>text</td><td>No</td><td>&nbsp;</td><td>Witch page to link to (index.php?site=site_id)</td>
+</tr>
+<tr>
+<td>sitename</td><td>text</td><td>No</td><td>nbsp;</td><td>Name of the page</td>
+</tr>
+<tr>
+<td>sort_id</td><td>int11</td><td>Yes</td><td>0</td><td>Where on the menu you want it to be (Uses numbers from 0 - 9999999999 where 0 is on the left and 1 is next to 0 etc..)</td>
+</tr>
+<tr>
+<td>break</td><td>int(1)</td><td>Yes</td><td>0</td><td>Insert link on a new line (0 = no, 1 = yes)<td>
+</tr>
+<tr>
+<td>link</td><td>text</td><td>No</td><td>&nbsp;</td><td>A external url here</td>
+</tr>
+</table><br>
+<br>
+<h2>Admin</h2>
+<table border="1">
+<tr>
+<td>Name</td><td>Type</td><td>Allow null</td><td>Default value</td><td>Description</td>
+</tr>
+<tr>
+<td>id</td><td>int(11)</td><td>No</td><td>&nbsp;</td><td>The id of the Admin item</td>
+</tr>
+<tr>
+<td>standalone</td><td>int(11)</td><td>Yes</td><td>0</td><td>Is the module a standalone module? 0 = No 1 = Yes</td>
+</tr>
+<tr>
+<td>module</td><td>text</td><td>No</td><td>&nbsp;</td><td>The name of the module folder</td>
+</tr>
+<tr>
+<td>module_name</td><td>text</td><td>No</td><td>&nbsp;</td><td>The name of the module</td>
+</tr>
+<tr>
+<td>module_menu_name</td><td>text</td><td>No</td><td>&nbsp;</td><td>The name the module will get in the menu</td>
+</tr>
+<tr>
+<td>module_site</td><td>text</td><td>No</td><td>&nbsp;</td><td>The site id of the module (?site=modulesite)</td>
+</tr>
+</table><br>
+<br>
+<h2>config</h2>
+<table border="1">
+<tr>
+<td>Name</td><td>Type</td><td>Allow null</td><td>Default value</td><td>Description</td>
+</tr>
+<tr>
+<td>id</td><td>int(11)</td><td>No</td><td>&nbsp;</td><td>The id of the config parameter</td>
+</tr>
+<tr>
+<td>title</td><td>text</td><td>No</td><td></td>The Hypnotize Project<td>The title of the page</td>
+</tr>
+<tr>
+<td>pagename</td><td>text</td><td>No</td><td>The Hypnotize Project</td><td>The name of the page</td>
+</tr>
+<tr>
+<td>to</td><td>text</td><td>No</td><td>hypnotize@mern-server.com</td><td>Admins e-mail address (used in the Mail module)</td>
+</tr>
+<tr>
+<td>maintenance</td><td>int(1)</td><td>Yes</td><td>0</td><td>Is the page under update? 0 = No 1 = Yes</td>
+</tr>
+<tr>
+<td>maintenanceip</td><td>text</td><td>No</td><td>10.0.0.6</td><td>The ip of the maintenancer</td>
+</tr>
+<tr>
+<td>dguestbook</td><td>int(1)</td><td>Yes</td><td>0</td><td>Disable writing to guestbook? 0 = No 1 = Yes</td>
+</tr>
+<tr>
+<td>dlinks</td><td>int(1)</td><td>Yes</td><td>0</td><td>Disable writing to links? 0 = No 1 = Yes</td>
+</tr>
+<tr>
+<td>siteurl</td><td>text</td><td>No</td><td>http://projects.lastnetwork.net/Stable/Hypnotize</td><td>The url of the page</td>
+</tr>
+<tr>
+<td>backend_description</td><td>text</td><td>No</td><td>The Hypnotize Project</td><td>Description of the RSS backend</td>
+</tr>
+<tr>
+<td>backend_language</td><td>text</td><td>No</td><td>no-bokmaal</td><td>The language of the RSS backend</td>
+</tr>
+<tr>
+<td>images</td><td>text</td><td>&nbsp;</td><td>/devel/Hypnotize/images</td><td>The path to the images (For watermarking and thumbs)</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

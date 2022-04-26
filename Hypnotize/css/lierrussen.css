@@ -1,0 +1,138 @@
+A:link  {
+	text-decoration:none;
+	color:#f2e483;
+        border-bottom : none;
+	text-decoration: none;
+}
+A:visited {
+	text-decoration:none;
+	color:#f2e483;
+	border-bottom : none;
+	text-decoration: none;
+}
+A:hover {
+	color: #f2e483;
+	text-decoration: none;
+	border-bottom : 1px solid #FFFFFF;
+	border-top : 1px solid #FFFFFF;
+}
+A.links-sforum {
+        color: #000000;
+        text-decoration: none;
+        border-bottom : 0px solid #FFFFFF;
+        border-top : none;
+}
+
+A.about {
+        color: #FFFFFF;
+        text-decoration: none;
+        border-bottom : 0px solid #FFFFFF;
+        border-top : none;
+}
+
+body {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+.over {
+	background-color: #cc0014;
+	color: #FFFFFF;
+	font-size: 40px;
+}
+.menu {
+	background-color: #cc0014;
+	color: #000000;
+}
+.round {
+	background-color: #c81515;
+	color: #000000;
+}
+.over2 {
+	background-color: #cc0014;
+	color: #f2e483;
+}
+.under {
+	background-color: #cc3333;
+	color: #000000;
+}
+.under2 {
+	background-color: #cc0014;
+	color: #000000;
+}
+input {
+        border: 1px;
+        background-color: #cc0014;
+        font-size: 12px;
+        color: #FFFFFF;
+        font-weight: bold;
+        border-color: #000000;
+        border-style: solid;
+}
+textarea {
+        border: 1px;
+        background-color: #cc0014;
+        font-size: 12px;
+        color: #FFFFFF;
+        font-weight: bold;
+        border-color: #000000;
+        border-style: solid;
+}
+
+caption  
+{ 
+font-family:arial,helvetica;  
+font-size:11px;  
+color: #ffffff; 
+font-weight: bold; 
+} 
+
+.Calendar  
+     { 
+     font-family:arial,helvetica;  
+     font-size: 11px;  
+     color: #FFFFFF; 
+     background-color: #ff0000; 
+     border-color: #000000; 
+     border-style: solid; 
+     border-width: 1px; 
+     } 
+
+.CalendarLink  
+     { 
+     color: #FFFFFF; 
+     } 
+
+.CalendarHeader  
+     { 
+     background-color: #ff0000; 
+     border-color: #000000; 
+     border-style: solid; 
+     border-width: 0px; 
+     } 
+
+.CalendarDay  
+     { 
+     background-color: #cc0014; 
+     border-color: #000000; 
+     border-style: solid; 
+     border-width: 0px; 
+     text-align: center 
+     } 
+
+.CalendarLinkedDay  
+     { 
+     background-color: #000000; 
+     border-color: #000000; 
+     border-style: solid; 
+     border-width: 1px; 
+     text-align: center
+     }
+.giThumbnail
+     {
+     border-width: 0px;
+     }
+div.cstyle {
+  position: fixed;
+  top: 2em;
+  right: 2em;
+}

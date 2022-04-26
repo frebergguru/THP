@@ -1,0 +1,120 @@
+A:link  {
+	text-decoration:none;
+	color:#CCCCCC;
+	border-bottom : 0px solid #FFFFFF;
+}
+A:visited {
+	text-decoration:none;
+	color:#CCCCCC;
+	border-bottom : 0px solid #FFFFFF;
+}
+A:hover {
+	color: #CCCCCC;
+	text-decoration: none;
+	border-bottom : 1px solid #FFFFFF;
+	border-top : 1px solid #FFFFFF;
+}
+A.under2:link {
+        text-decoration:none;
+        color:#000000;
+        border-bottom : 0px solid #FFFFFF;
+}
+A.under2:visited {
+        text-decoration:none;
+        color:#000000;
+        border-bottom : 0px solid #FFFFFF;
+}
+A.under2:hover {
+        color: #000000;
+        text-decoration: none;
+        border-bottom : 1px solid #FFFFFF;
+        border-top : 1px solid #FFFFFF;
+}
+A.over2:link {
+        color:#000000;
+        text-decoration:none;
+        border-bottom : 0px solid #FFFFFF;
+}
+A.over2:visited {
+        color:#000000;
+        text-decoration:none;
+        border-bottom : 0px solid #FFFFFF;
+}
+A.over2:hover {
+        color: #000000;
+        text-decoration: none;
+        border-bottom : 1px solid #FFFFFF;
+        border-top : 1px solid #FFFFFF;
+}
+A.menu:link {
+        color:#000000;
+        text-decoration:none;
+        border-bottom : 0px solid #FFFFFF;
+}
+A.menu:visited {
+        color:#000000;
+        text-decoration:none;
+        border-bottom : 0px solid #FFFFFF;
+}
+A.menu:hover {
+        color: #000000;
+        text-decoration: none;
+        border-bottom : 1px solid #FFFFFF;
+        border-top : 1px solid #FFFFFF;
+}
+body {
+	background-color: #000000;
+	color: #CCCCCC;
+}
+.over {
+	background-color: #000000;
+	color: #FFFFFF;
+	font-size: 50px;
+}
+.menu {
+	background-color: #00BFFF;
+	color: #000000;
+}
+.round {
+	background-color: #000000;
+	color: #CCCCCC;
+}
+.over2 {
+	background-color: #00BFFF;
+	color: #000000;
+}
+.under {
+	background-color: #66CC66;
+	color: #000000;
+}
+.under2 {
+        background-color: #00BFFF;
+        color: #000000;
+}
+input {
+        border: 1px;
+        background-color: #66CC66;
+        font-size: 12px;
+        color: #000000;
+        font-weight: bold;
+        border-color: #000000;
+        border-style: solid;
+}
+textarea {
+        border: 1px;
+        background-color: #66CC66;
+        font-size: 12px;
+        color: #000000;
+        font-weight: bold;
+        border-color: #000000;
+        border-style: solid;
+}
+select {
+	border: 1px;
+	background-color: #CCCCCC;
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+	border-color: #CCCCCC;
+	border-style: solid;
+}

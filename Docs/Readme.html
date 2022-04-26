@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>The Hypnotize Project - Readme</title>
+</head>
+<body>
+<div align="center">
+<h2>The Hypnotize Project - Readme</h2>
+<hr align="center">
+<table border="0">
+<tr>
+<td>
+<h3>MySQL Database installation:</h3>
+mysql -u your_username -p < Hypnotize-stable.sql<br>
+<br>
+Remember to secure the admin directory with for example htaccess.
+<hr align="center">
+<h3>Add this to httpd.conf if you want to use the custom error pages (Only if you use Apache!)</h3>
+ErrorDocument 401 "/?error=401"<br>
+ErrorDocument 404 "/?error=404"<br>
+ErrorDocument 500 "/?error=500"<br>
+ErrorDocument 503 "/?error=502"<br>
+<hr align="center">
+<h3>The config files (Hypnotize/includes/config.php and Hypnotize-admin/includes/config.php):</h3>
+<strong>$hostname</strong> - The ip adress or hostname to the MySQL server<br>
+<strong>$username</strong> - The username that will be used to connect to the MySQL server<br>
+<strong>$password</strong> - The password that will be used to connect to the MySQL server<br>
+<strong>$database</strong> - The database that is used<br>
+<hr align="center">
+<h3>How do I change the default color style?</h3>
+The color style are inn the css folder..<br>
+<br>
+copy one of the existing styles to default.css<br>
+<br>
+Example:<br>
+"cp black.css default.css"<br>
+(without the quotes (")) this will change from your current color style to the Black color style.<br>
+<hr align="center">
+<h3>Current color styles:</h3>
+o Mern-Server<br>
+o Lier Russen 2006<br>
+o Bulle<br>
+o Black<br>
+o Red<br>
+o Gray<br>
+o Kari<br>
+o Tommers
+<hr align="center">
+<h3>Development functions</h3>
+<strong>* is only in the admin interface<br>
+** is only in the user interface</strong><br>
+<hr align="center">
+<strong>smilies($string)</strong> - Changes characters with a smiley ( example: ";-)" without " will be changed out with a image smiley )<br>
+<strong>parseurls($string)</strong> - Parses a text for urls and makes them clickable<br>
+<strong>mysqldie($string)</strong> - Kills the MySQL link and adds the message you have choosen ($string) and the MySQL error message<br>
+<strong>chchar($string)</strong> - Changes some chars with real html code<br>
+<strong>msg($string)</strong> - Prints out the text in a message box<br>
+<strong>error($string) *</strong> - Prints out the text in a error box<br>
+<strong>info($string)* </strong> - Prints out the text in a info box<br>
+<strong>srverror($string1,$string2) **</strong> - Prints out a server error message
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
